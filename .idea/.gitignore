@@ -2,7 +2,7 @@
 */target/*
 /shelf/
 /workspace.xml
-USTSV.iml
+*.iml
 ##############################
 ## Java
 ##############################
@@ -21,3 +21,4 @@ log/
 .idea/
 *.iws
 *.xml
+
