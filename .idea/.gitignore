@@ -1,0 +1,23 @@
+# Default ignored files
+*/target/*
+/shelf/
+/workspace.xml
+USTSV.iml
+##############################
+## Java
+##############################
+
+.classpath
+.project
+.settings/
+target/
+##############################
+## Maven
+##############################
+log/
+##############################
+## IntelliJ
+##############################
+.idea/
+*.iws
+*.xml
