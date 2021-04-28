@@ -28,10 +28,10 @@ public class IAMDatabaseAuthenticationTester {
     private static final String AWS_SECRET_KEY = creds.getCredentials().getAWSSecretKey();
 
     //Configuration parameters for the generation of the IAM Database Authentication token
-    private static final String RDS_INSTANCE_HOSTNAME = "rdsmysql.123456789012.us-west-2.rds.amazonaws.com";
+    private static final String RDS_INSTANCE_HOSTNAME = "mysql-muyizhu.cgwla30ueblu.us-east-2.rds.amazonaws.com";
     private static final int RDS_INSTANCE_PORT = 3306;
     private static final String REGION_NAME = "us-west-2";
-    private static final String DB_USER = "jane_doe";
+    private static final String DB_USER = "admin";
     private static final String JDBC_URL = "jdbc:mysql://" + RDS_INSTANCE_HOSTNAME + ":" + RDS_INSTANCE_PORT;
 
     private static final String SSL_CERTIFICATE = "rds-ca-2019-us-west-2.pem";
